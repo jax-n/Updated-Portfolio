@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--   ****   Links // CDNs   ****   -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|family=Raleway:500|family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<!--   ****   Header // Nav   ****   -->
+<header>
+    <div class="titleContainer">
+        <h1 class="title">Dakota Stuart</h1>
+        <h3 class="titleDescription">Developer, Designer & Creator.</h3>
+    </div>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="navTab nav-link active" href="index.html#scroll-aboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="navTab nav-link" href="index.html#scroll-projects">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="navTab nav-link" href="index.html#scroll-contact">Contact</a>
+        </li>
+    </ul>
+</header>
+
+<!--   ****   Main Content // About Me   ****   --> 
+<body>
+    <div class="container">
+        <div class="item aos-init aos-animate" data-aos="zoom-out">
+            <section class="shadow p-3 mb-5 rounded main-section" id="scroll-aboutMe">
+                <h1 class="abtMe">Hello,</h1>
+            
+                
+                <img class="rounded-circle auth-image" src="assets/IMG_0036.JPG" alt="Dakota Stuart">
+                <p>
+                    <h3>My name is Dakota.</h3>
+                    I am an up and coming Web Developer with a particular passion for UI/UX design and engineering.
+                    I started out self teaching but sought guidance from a Development Bootcamp where I 
+                    learned how to learn better, code with peers and how to better comprehend 
+                    documentation when learning new technologies.
+                    
+                    <br></br>
+                    <h3>Current Technologies</h3>
+                    HTML5, CSS3, JavaScript, jQuery, node.js
+                    <br></br>
+                    <h3>Other Skills</h3> 
+                    Ajax & APIs, Bootstrap, Materialize, GitHub, Firebase
+                </p>
+            </section>
+        </div>
+
+        <!--   ****   Portfolio/Projects   ****   -->
+        <div class="item aos-init aos-animate" data-aos="zoom-out">
+            <section class="shadow p-3 mb-5 rounded main-section" id="scroll-projects">
+                <h1 class="portfolioSection">Projects</h1>
+                <p>
+                    <div class="row">
+                        <div class="card text-black bg-light mb-3 ml-5" style="width: 18rem;">
+                            <img src="assets/4e7ce756-7bd0-4540-b8d7-94b9db0f38fe_200x200 (1).png" class="card-img-top" alt="Live Show locator">
+                            <div class="card-body">
+                                <h5 class="card-title">Live Show Locator</h5>
+                                <p class="card-text">Group built web application that lets users find live music shows near them based on the users choice in venue, artist or genre. Some key things that i've done to help build this app are product design, logo design and front end design.</p>
+                                <a href="https://bburwell91.github.io/Project-1/search.html" class="btn btn-primary">Launch App</a>
+                            </div>
+                        </div>
+
+                        <div class="card text-black bg-light mb-3 ml-3" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">JavaScript RPG</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Launch App</a>
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="card text-black bg-light mb-3 ml-3" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Word Guess Game</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Launch App</a>
+                            </div>
+                        </div>
+                    </div>                        
+                </p>
+            </section>
+        </div>    
+            
+        <!--   ****   Contact   ****   -->
+        <div class="item aos-init aos-animate" data-aos="zoom-out">
+            <section class="shadow p-3 mb-5 rounded main-section aos-init aos-animate" data-aos="zoom-out" id="scroll-contact">
+                <h1 class="contactSection">Contact</h1>
+                <h3>Send me an email</h3>
+                <div class="inputWrapper">
+                    <form id="contact-form">            
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">       
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required="required"></textarea>    
+                        <br>
+                        <input type="submit">
+                    </form>            
+                </div>    
+            </section>
+        </div>
+
+        <!--   ****   Footer   ****   -->
+        <footer>
+            <div class="container">
+                Copyright &copy; 
+            </div>
+        </footer>
+    </div> 
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>

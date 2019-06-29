@@ -1,0 +1,152 @@
+html {
+    background-color: whitesmoke;
+    cursor: cell;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    background-color: white;
+
+    background-color: white;
+    color: black ;
+}
+
+h5 {
+    color:  black;
+    font-family: 'Arvo', serif;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+}
+
+[data-aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+  
+[data-aos="fade"].aos-animate {
+    opacity: 1;
+}
+
+
+.title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+
+.title:hover {
+    transition-duration: .10s ease-in-out;
+    color: whitesmoke;
+    font-stretch: expanded;
+    text-shadow: 5px 2px rgba(102, 30, 196, 0.863);  
+}
+
+.titleDescription {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+.navTab {
+    font-family: 'Arvo', serif;
+    font-size: 26px;
+    color: black; 
+    cursor: cell;
+}
+
+.navTab:hover {
+    color: whitesmoke;
+    text-shadow: 2px 0px rgb(252, 142, 17);
+}
+
+.titleContainer {
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.auth-image {
+    float: left;
+    width: 320px;
+    height: 280px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 80px;
+    box-shadow: 10px black;
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 1060px;
+    padding: 30px;
+    margin: 40px 0 0 40px;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+
+}
+
+.abtMe {
+    margin-left: 710px;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+
+.abtMe:hover {
+    transition-duration: .10s ease-in-out;
+    color: white;
+    font-stretch: expanded;
+    text-shadow: 4.5px 2px rgb(50, 179, 46); 
+    
+}
+
+.portfolioSection {
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-right: 800px;
+}
+
+.portfolioSection:hover {
+    transition-duration: .10s ease-in-out;
+    color: whitesmoke;
+    font-stretch: expanded;
+    text-shadow: 4.5px 2px rgb(0, 126, 243); 
+    padding-bottom: 20px;
+}
+
+.contactSection {
+    margin-left: 710px;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.contactSection:hover {
+    transition-duration: .10s ease-in-out;
+    color: whitesmoke;
+    font-stretch: expanded;
+    text-shadow: 4.5px 2px rgb(243, 0, 20);
+}
+
+.inputWrapper {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
